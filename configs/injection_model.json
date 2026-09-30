@@ -1,0 +1,12 @@
+{
+  "vectorizer": {
+    "ngram_range": [1, 2],
+    "min_df": 1,
+    "sublinear_tf": true
+  },
+  "classifier": {
+    "max_iter": 1000,
+    "class_weight": "balanced",
+    "random_state": 42
+  }
+}

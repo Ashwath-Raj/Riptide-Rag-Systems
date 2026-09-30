@@ -1,0 +1,32 @@
+# Secrets and local Python environments
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.tsbuildinfo
+
+# Test, lint, and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+dist/
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/
+
+# Local datasets and generated artifacts
+/datasets/
+/data/raw/
+/data/processed/
+/data/index/
+/data/models/
+/data/fixtures/
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
+*.crdownload
